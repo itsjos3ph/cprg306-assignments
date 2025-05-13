@@ -13,11 +13,11 @@ export default function StudentInfo() {
 }
 
 function MyName() {
-  return <h1>Joseph Sabo</h1>;
+  return <h1 className="ml-5 text-2xl">Joseph Sabo</h1>;
 }
 
 function MyGithub() {
   return (
-    <Link href="https://github.com/itsjos3ph">Github</Link>
+    <Link className="ml-5 mt-5 hover:underline hover:text-green-200 text-2xl" href="https://github.com/itsjos3ph">Github</Link>
   );
 }
